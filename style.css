@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: #70c5ce;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  user-select: none;
+  padding-top: 70px; /* leave space for scoreboard */
+}
+
+#scoreboard {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #2c9c35;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  font-family: Arial, sans-serif;
+  user-select: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+
+#score, #highScore {
+  font-size: 20px;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+canvas {
+  border: 3px solid #007f00;
+  border-radius: 10px;
+  background-color: #70c5ce;
+  display: block;
+}
